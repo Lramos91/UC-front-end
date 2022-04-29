@@ -1,0 +1,268 @@
+
+@media screen and (max-width: 900px) {
+    .container-grid { 
+        width: 100%;
+}    
+}
+
+
+@media screen and (max-width: 768px){
+    h1{
+        color: blue;
+    }
+    
+}
+
+    
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: #08522F;
+    height: 100px;
+    display: flex;
+    width: 100%;
+}
+
+
+.container-grid {
+    background-color: #08522F;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin:auto;
+    align-items: center;
+    height: 100%;   
+
+}
+
+
+.topo a{
+    background-color: #453939;
+    text-decoration: none;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+
+
+
+.texto-banner {
+    text-decoration: none;
+    color: #DAEC09;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+      
+}
+
+
+.texto-banner a {
+   justify-content: center;
+}
+
+
+.todasmarcas a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+   
+}
+
+
+
+
+.secao-barra{
+    background-color: #942424;
+    height: 50px;
+
+}
+
+
+
+.secao-anuncio{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+.fundo {
+    background-color: white
+}
+
+
+
+.pagamento{
+    background-color: #8B9E18;
+    height: 90px;
+    padding: 20px;
+    background-size: 80%;
+}
+
+.espaco{
+    background-color: white;
+    height: 65px;
+}
+
+.espaco2{
+    background-color: white;
+    height: 65px;
+}
+
+
+.textodestaque {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    word-spacing: 30px;
+    padding-top: 50px;
+    
+}
+
+
+.barra a{
+    text-decoration: none;
+    color:aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;  
+}
+.barra{
+    word-spacing: 65px;
+    align-items: center;
+    padding: 10px;
+    text-align:center;
+  
+
+}
+
+
+.text {
+    position:fixed;
+    color: aliceblue;
+    text-align: center;
+    top: 100px;
+    width: -150px;
+    line-height: 10px;
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px; 
+    color: aliceblue;
+}
+
+.secao-jogos{
+    padding: 60px;
+
+}
+
+.jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.jogos img{
+    width: 250px;
+   padding: 10px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre img {
+    width: 120px;  
+}
+
+.secao-sobre {width: 100%;
+
+}
+
+footer{
+    background-color: #08522F;
+
+}
+
+.radape{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato-footer h2{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.contato-footer a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.contato-footer {
+    color: aliceblue;
+    
+}
+
+.contato-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%     
+}
+
+.contato-footer img{
+    width: 50px;
+    height: 40px;
+}
+
+.sociais input[type="email"]::placeholder{
+    color: #942424;
+    font-weight: bold;
+}
+
+.menu-ativo{
+    display: flex;
+}
+
+.carousel-inner , .carousel-item{
+    max-height: 100%;
+   }
+
+   .carousel-inner , .carousel-item img {
+       max-height: fit-content;
+       
+   }
+
+
+
+
+
