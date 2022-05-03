@@ -87,7 +87,9 @@ header {
 
 
 
-
+.navbar {
+    background-color: #942424;
+}
 .secao-barra{
     background-color: #942424;
     height: 50px;
@@ -254,8 +256,13 @@ footer{
 }
 
 .carousel-inner , .carousel-item{
-    max-height: 100%;
-   }
+        justify-items: center;       
+ }
+
+ .carrousel-item{
+     height: 50px;
+
+ }
 
    .carousel-inner , .carousel-item img {
        max-height: fit-content;
